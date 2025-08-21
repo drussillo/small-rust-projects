@@ -1,3 +1,9 @@
+use std::io;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Enter a number!");
+
+    let guess = "Test";
+
+    println!("{}", guess);
 }
