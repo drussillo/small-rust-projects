@@ -1,9 +1,7 @@
-use std::io;
 
 fn main() {
-    println!("Enter a number!");
+    let s: String = String::from("test");
 
-    let guess = "Test";
 
-    println!("{}", guess);
+    println!("{}", s[0]);
 }
